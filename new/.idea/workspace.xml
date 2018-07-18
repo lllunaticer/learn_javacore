@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3ba788-3290-497a-baaf-8431ecb868d0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/list/MyList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/list/SingleList.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/list_source_code/List_Test.java" afterPath="$PROJECT_DIR$/src/list_source_code/List_Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/stack_definition/StackPersonal.java" afterPath="$PROJECT_DIR$/src/stack_definition/StackPersonal.java" />
-      <change beforePath="$PROJECT_DIR$/src/stack_definition/TestStack.java" afterPath="$PROJECT_DIR$/src/stack_definition/TestStack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +26,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,14 +39,37 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7776">
-              <caret line="266" column="24" lean-forward="false" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="24" />
+            <state relative-caret-position="-18500">
+              <caret line="557" column="17" lean-forward="false" selection-start-line="557" selection-start-column="17" selection-end-line="557" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackPersonal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/list/MyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+              <folding>
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/list/SingleList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackPersonal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stack_definition/StackPersonal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-653">
@@ -96,6 +108,8 @@
     <findStrings>
       <find>checkElementIndex</find>
       <find>removeFirst</find>
+      <find>Node</find>
+      <find>insert</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +126,8 @@
         <option value="$PROJECT_DIR$/src/list_source_code/List_Test.java" />
         <option value="$PROJECT_DIR$/src/stack_definition/StackPersonal.java" />
         <option value="$PROJECT_DIR$/src/stack_definition/TestStack.java" />
+        <option value="$PROJECT_DIR$/src/list/MyList.java" />
+        <option value="$PROJECT_DIR$/src/list/SingleList.java" />
       </list>
     </option>
   </component>
@@ -122,8 +138,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="y" value="101" />
+    <option name="x" value="745" />
+    <option name="y" value="94" />
     <option name="width" value="1400" />
     <option name="height" value="1006" />
   </component>
@@ -163,13 +179,7 @@
               <item name="learning_java_and_everything_related" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="list_source_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning_java_and_everything_related" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack_definition" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,15 +330,15 @@
       <workItem from="1531468895338" duration="663000" />
       <workItem from="1531491144962" duration="27484000" />
       <workItem from="1531834439251" duration="498000" />
-      <workItem from="1531880528958" duration="3886000" />
+      <workItem from="1531880528958" duration="10959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32531000" />
+    <option name="totallyTimeSpent" value="39604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="101" width="1400" height="1006" extended-state="0" />
+    <frame x="745" y="94" width="1400" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,34 +504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7776">
-          <caret line="266" column="24" lean-forward="false" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2464">
           <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list_source_code/List_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -545,6 +531,49 @@
             <element signature="e#1637#1638#0" expanded="true" />
             <element signature="e#1664#1665#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list_source_code/List_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18500">
+          <caret line="557" column="17" lean-forward="false" selection-start-line="557" selection-start-column="17" selection-end-line="557" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding>
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list/SingleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
