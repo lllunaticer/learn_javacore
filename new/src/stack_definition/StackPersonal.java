@@ -25,10 +25,8 @@ public class StackPersonal<E> {
     public void DestroyStack(){}
     //清空一个栈
     public void ClearStack(){
-        this.bottom.item = null;
-        this.bottom.next = null;
-        this.bottom.priv = null;
-        this.top = bottom;
+        this.top = new Node<>(null, null, null);
+        bottom = top;
         size = 0;
     }
     //判断栈是否为空
@@ -37,7 +35,7 @@ public class StackPersonal<E> {
     }
     //若栈存在且不为空，返回栈顶元素
     public E GetTop(){
-        if(this.top == null){
+        if(this.top.item == null){
             System.out.println("the stack is empty!");
             return null;
         }
@@ -53,9 +51,21 @@ public class StackPersonal<E> {
     //弹栈
     public E Pop(){
         E a = GetTop();
-        Node<E> f=new Node<>(top.priv.priv, top.priv.item, null);
-        this.top = f;
-        size--;
+        if(size==1){
+            this.top = new Node<>(null, null, null);
+            size--;
+        }
+        if(size==2){
+            this.top = new Node<>(null, top.priv.item, null);
+            size--;
+        }
+        if(size>2){
+            this.top = new Node<>(top.priv.priv, top.priv.item, null);
+            size--;
+        }
+        if(size<=0){
+            this.top = new Node<>(null, null, null);
+        }
         return a;
     }
     //返回栈的长度

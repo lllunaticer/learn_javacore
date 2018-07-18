@@ -10,16 +10,17 @@ public class TestStack {
         a.Push("Fine");
         a.Push("Get away from me");
         a.Push("I miss you");
+//        System.out.println("弹出顶部 "+a.Pop());
+//        System.out.println("弹出顶部 "+a.Pop());
+//        System.out.println("弹出顶部 "+a.Pop());
+//        System.out.println("弹出顶部 "+a.Pop());
+//        System.out.println("弹出顶部 "+a.Pop());
+        System.out.println("获取顶部"+a.GetTop());
         System.out.println("弹出顶部"+a.Pop());
-        System.out.println("弹出顶部"+a.Pop());
-        System.out.println("弹出顶部"+a.Pop());
-        System.out.println("弹出顶部"+a.Pop());
-//        System.out.println("获取顶部"+a.GetTop());
-//        System.out.println("弹出顶部"+a.Pop());
-//        System.out.println("获取顶部"+a.GetTop());
-//        System.out.println("是否为空？"+a.StackEmpty());
-//        System.out.println("获取长度"+a.StackLength());
-//      //  a.ClearStack();
-//        System.out.println("是否为空？"+a.StackEmpty());
+        System.out.println("获取顶部"+a.GetTop());
+        System.out.println("是否为空？"+a.StackEmpty());
+        System.out.println("获取长度"+a.StackLength());
+        a.ClearStack();
+        System.out.println("是否为空？"+a.StackEmpty());
     }
 }
