@@ -49,7 +49,7 @@ public abstract class MyList<E> {
     }
 
     /*Inner class*/
-    private static class Node<E>{
+    public static class Node<E>{
 
         E elment;
         Node<E> prev;
