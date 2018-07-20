@@ -192,11 +192,13 @@ public class SingleList<E> extends MyList<E>{
     //delete the specified element in the list, return true if the list is changed.
     public boolean delete(E e) {
         String s= locateElement(e);
-        if(s==" "){
+        if(s == " "){
             System.out.println("No such an element in the list");
             return false;
         }
         else{
+            //trim the white space at the begin and the end.
+            s = s.trim();
             String[] s1 = s.split(" ");
             for(String s2:s1){
                 int i = Integer.parseInt(s2);

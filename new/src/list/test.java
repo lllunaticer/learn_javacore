@@ -15,8 +15,11 @@ public class test {
             System.out.println(a.get(2));
             System.out.println(a.isEmpty());
             System.out.println(a.length());
-            System.out.println(a.locateElement(2.2));
+            System.out.println(a.locateElement(3.2));
             a.delete(2.2);
+            System.out.println(a.length());
+            a.clearList();
+            System.out.println(a.isEmpty());
             System.out.println(a.length());
 
     }
