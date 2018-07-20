@@ -31,11 +31,11 @@ public abstract class MyList<E> {
     //clear a list, return true if success, false is the list is already empty
     public abstract boolean clearList();
     //get the element at given index position, null if not existed
-    public abstract E get(int index);
+    public abstract Node<E> getNode(int index);
     //get the index of a given element in the list, -1 if not existed
-    public abstract int locateElement(E element);
+    public abstract String locateElement(E element);
     //insert the Element e before the given index i,
-    public abstract void insert(int i, E e);
+    public abstract boolean insert(int i, E e);
     //delete the element at the given index, return true if the list was changed
     public abstract boolean delete(int i);
     //delete the given elements in the list, return true if the list was changed
