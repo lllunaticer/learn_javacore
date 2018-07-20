@@ -83,7 +83,7 @@ public class SingleList<E> extends MyList<E>{
     //return null and report the notifications.
     //Maybe rely on the implementation of equalTo function.
     public String locateElement(E element) {
-        String s = null;
+        String s = " ";
         int count=0;
         //equals treat differently between null and an object
         if(element==null){
@@ -102,7 +102,7 @@ public class SingleList<E> extends MyList<E>{
                         s = s + count + " ";
                     f = f.next;
                 }
-                if (s==null){
+                if (s == " "){
                     System.out.println("No such element found!");
                 }
                 return s;
@@ -192,7 +192,7 @@ public class SingleList<E> extends MyList<E>{
     //delete the specified element in the list, return true if the list is changed.
     public boolean delete(E e) {
         String s= locateElement(e);
-        if(s==null){
+        if(s==" "){
             System.out.println("No such an element in the list");
             return false;
         }

@@ -6,6 +6,18 @@ public class test {
             for(int i = 1;i<10;i++){
                 a.add(i*2.52);
             }
-            System.out.println(a.get(1));
-        }
+            System.out.println(a.length());
+            System.out.println(a.get(2));
+            a.delete(2);
+            System.out.println(a.length());
+            System.out.println(a.get(2));
+            a.insert(2, 2.2);
+            System.out.println(a.get(2));
+            System.out.println(a.isEmpty());
+            System.out.println(a.length());
+            System.out.println(a.locateElement(2.2));
+            a.delete(2.2);
+            System.out.println(a.length());
+
+    }
     }
