@@ -51,7 +51,7 @@ public class SingleList<E> extends MyList<E>{
         }
         else{
             Node<E> f = tail;
-            for(int i=0;i<=index;i++)
+            for(int i=1;i<index;i++)//即使判断条件不成立，也会执行一次
                 f = f.next;
             return f;
         }
@@ -118,7 +118,7 @@ public class SingleList<E> extends MyList<E>{
             System.out.println("The location is out of reach.");
             return false;
         }else{
-            //if i indexes the head of the list
+            //if i indexes the tail of the list
             if(f.prev == null){
                 Node<E> newNode = new Node<>(null, e, f);
                 tail = newNode;
@@ -133,6 +133,24 @@ public class SingleList<E> extends MyList<E>{
             }
             return true;
         }
+    }
+
+    //add element to the head
+    public boolean add(E element){
+        if(head==null){
+            Node<E> newNode = new Node<>(null, element, null);
+            head = newNode;
+            tail = newNode;
+            tail.next = head;
+            head.prev = tail;
+            size++;
+        }else{
+            Node<E> newNode = new Node<>(head, element, null);
+            head.next = newNode;
+            head = newNode;
+            size++;
+        }
+        return true;
     }
 
     @Override
