@@ -1,3 +1,4 @@
+import org.apache.commons.text.StringEscapeUtils;
 import org.json.*;
 public class parse_nest_json {
     public static void main(String[] args){
@@ -10,6 +11,8 @@ public class parse_nest_json {
                 "\"out_biz_no\":\"3142321423432\"}}";
 
         JSONObject joResult = new JSONObject(jsonstr);
+        String tmp = StringEscapeUtils.unescapeJava(jsonstr);
+        System.out.println("tmp:" + tmp);
         JSONObject joAftttr = (JSONObject) joResult.get("alipay_fund_trans_toaccount_transfer_response");
         System.out.println("msg:" + joAftttr.getString("msg"));
     }
