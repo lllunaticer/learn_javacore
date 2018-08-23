@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="main">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Lire-1.0b4/src/legacy/main" />
+      <root url="file://$USER_HOME$/Desktop/Lire-1.0b4/src/legacy/test" />
+      <root url="file://$USER_HOME$/Desktop/Lire-1.0b4/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Lire-1.0b4/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

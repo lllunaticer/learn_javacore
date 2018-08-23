@@ -1,4 +1,3 @@
-package KMP_pattern_matching;
 
 public class Test {
     public static void main(String[] args){

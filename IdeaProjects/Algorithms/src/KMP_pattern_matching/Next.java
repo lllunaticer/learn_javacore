@@ -1,4 +1,3 @@
-package KMP_pattern_matching;
 //this class will take a String and return the next array of it.
 
 public class Next {
